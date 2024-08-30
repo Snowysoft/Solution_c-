@@ -20,7 +20,7 @@ The program follows these steps:
 
 1. Socket Creation and Connection: Three TCP socket connections are established to ports 4001, 4002, and 4003 on localhost.
 
-2. A timer is set up using `timerfd_create´, and it is configured to trigger every 100 milliseconds. This timer drives the data collection loop.
+2. A timer is set up using timerfd_create, and it is configured to trigger every 100 milliseconds. This timer drives the data collection loop.
 
 3. The core of the program is a loop that repeatedly checks for activity on the sockets and the timer using select.
 
