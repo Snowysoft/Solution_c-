@@ -1,4 +1,4 @@
-# homework-bundle-1.0-solution
+# Solution
 ## Task 1
 ### Design Decisions:
 
